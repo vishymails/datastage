@@ -1,0 +1,5 @@
+"A1111","Stuff     ","Washington          ","1111111111","Bob's               ","Red box                       ",00436.14,13
+"A1112","MoreStuff ","Adams               ","2222222222","Squeaky             ","Blue Chair                    ",00456.56,14
+"A1113","Stuffy's  ","Jefferson           ","3333333333","Sunshine            ","Yellow Duckie                 ",00203.38,7
+"A1114","McStuff   ","Madison             ","4444444444","AAAAA               ","fork                          ",00308.87,2
+"A1115","Stuff Jr. ","Monroe              ","5555555555","Best                ","lawn mower                    ",00024.40,11

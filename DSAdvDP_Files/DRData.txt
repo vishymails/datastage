@@ -1,0 +1,3 @@
+EmpID,FName,LName,Age,PhoneNum,Email
+432,Allen,Fry,46,887-121-1212,alt@ibm.com
+9000,Rafael,Aldero,135,445-123-123@,alt@newcas.co9

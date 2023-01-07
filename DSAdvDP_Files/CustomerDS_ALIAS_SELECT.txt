@@ -1,0 +1,27 @@
+-- All files and material for this course (Course Number KM422, -- "IBM InfoSphere Advanced DataStage - Advanced Data Processing -- v9.1" 2013) are 
+-- IBM copyright property covered by the following copyright -- -- notice.
+-- 
+--  (c) Copyright IBM Corp. 2005, 2013
+-- 
+-- US Government Users Restricted Rights - Use duplication or
+-- disclosure restricted by GSA ADP Schedule Contract with
+-- IBM Corp
+
+
+
+
+SELECT 
+	CustomerDS_ALIAS.CustomerID, 
+	CustomerDS_ALIAS.FirstName, 
+	CustomerDS_ALIAS.MiddleName, 
+	CustomerDS_ALIAS.LastName, 
+	CustomerDS_ALIAS.DOB, 
+	CustomerDS_ALIAS.SSN, 
+	CustomerDS_CC_ALIAS.CreditCardNumber,
+	CASE WHEN CustomerDS_CC_ALIAS.CreditCardNumber IS NULL THEN NULL ELSE 0 END AS Charges, 
+	CASE WHEN CustomerDS_CC_ALIAS.CreditCardNumber IS NULL THEN NULL ELSE 0 END AS Payments
+FROM
+	DB2INST1.Customer_DS AS CustomerDS_ALIAS
+	LEFT OUTER JOIN
+	DB2INST1.Customer_DS_CC AS CustomerDS_CC_ALIAS
+		ON CustomerDS_ALIAS.CustomerID = CustomerDS_CC_ALIAS.CustomerID

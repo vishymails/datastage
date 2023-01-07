@@ -1,0 +1,8 @@
+All files and material for this course (Course Number KM422, "IBM InfoSphere Advanced DataStage - Advanced Data Processing v9.1" 2013) are 
+IBM copyright property covered by the following copyright notice.
+
+ (c) Copyright IBM Corp. 2005, 2013
+
+US Government Users Restricted Rights - Use duplication or
+disclosure restricted by GSA ADP Schedule Contract with
+IBM Corp
